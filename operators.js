@@ -175,3 +175,7 @@ console.log(!true);
 console.log(!false);
 console.log(!0);
 console.log(!5);
+
+const karsilastirma = (`merhaba ` && `dunya`) || false || (28 && 0);
+
+console.log(karsilastirma);
