@@ -67,5 +67,44 @@ console.log(bol2 / 0);
 console.log(-61 / 0);
 
 console.log(0 / 5);
+console.log(0 / -5);
 
+console.log(57 / 9);
 
+const mod1 = 57;
+const mod2 = 9;
+
+console.log(mod1 % mod2);
+console.log(22 % 7);
+
+const benimSayim = 967;
+
+const birlerBas = benimSayim % 10;
+console.log(birlerBas);
+
+const onlarBas = (benimSayim / 10) % 10;
+console.log(onlarBas);
+
+const yuzlerBas = benimSayim / 100;
+console.log(yuzlerBas);
+
+console.log(
+  `yuzlerBas: ${Math.trunc(yuzlerBas)}, OnlarBas: ${Math.trunc(
+    onlarBas
+  )}, birlerBas: ${birlerBas}`
+);
+
+const randomNum = Math.random() * 10;
+console.log(randomNum);
+
+console.log(Math.round(Math.random() * 10));
+
+const us1 = 2;
+const us2 = 3;
+console.log(us1 ** us2);
+
+const pi = 3.14;
+const yariCap = 9;
+
+const alan = pi * yariCap ** 2;
+console.log(alan);
