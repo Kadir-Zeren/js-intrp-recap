@@ -108,3 +108,12 @@ const yariCap = 9;
 
 const alan = pi * yariCap ** 2;
 console.log(alan);
+
+let artir = 6;
+let artirNew = artir++;
+console.log(artirNew);
+console.log(artir);
+
+let newSayi = ++artir;
+console.log(newSayi);
+
