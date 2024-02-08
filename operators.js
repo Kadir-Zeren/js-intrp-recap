@@ -32,3 +32,27 @@ console.log(num3 + 7);
 console.log(7 + num3);
 
 console.log(typeof (7 + num3));
+
+const x = 55;
+const y = 44;
+
+console.log(x - y);
+
+const myNum = `1`;
+console.log(x - myNum);
+
+const yourNum = `one`;
+console.log(x - yourNum);
+
+console.log(x - `a`);
+
+let carp1 = 7;
+let carp2 = 9;
+console.log(carp1 * carp2);
+
+console.log(`a` * `b`);
+console.log(`a` * 3);
+
+console.log(`5` * `9`);
+console.log(typeof (`5` * `9`));
+
