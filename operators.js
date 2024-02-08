@@ -156,3 +156,22 @@ console.log(15 >= 16);
 
 console.log(15 >= `15`);
 console.log(`14` <= `15`);
+
+console.log(true && true);
+console.log(" " && true);
+console.log(5 && `Merhaba`);
+console.log(0 && `Dunya`);
+
+console.log(5 && 0);
+console.log(true && false);
+
+console.log(true || false);
+console.log(5 || 15);
+console.log(5 || 0);
+console.log(`` || `Merhaba`);
+console.log(`` || 0);
+
+console.log(!true);
+console.log(!false);
+console.log(!0);
+console.log(!5);
